@@ -3,89 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Duda</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>Meu Blog Aesthetic</title>
+    <link rel="stylesheet" href=".css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <h1>Meu Blog Aesthetic</h1>
         <nav>
-            <h1>Duda</h1>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <!-- seção hero -->
-        <section id="hero">
-            <div class="hero-content">
-                <h2>Olá, eu sou a Duda!</h2>
-                <p>Desenvolvedora Front-end apaixonada por criar experiências visuais incríveis.</p>
-                <a href="#projetos" class="btn">Veja Meus Projetos</a>
-            </div>
+        <section class="post">
+            <h2><a href="post-por-onde-comecar.html">Por Onde Começar na Programação? - Um Guia Para Quem Quer Aprender a Programar</a></h2>
+            <p>Descubra como dar os primeiros passos no mundo da programação!</p>
         </section>
-
-        <!-- seção sobre -->
-        <section id="sobre">
-            <div class="sobre-content">
-                <img src="assets/img/profile.jpg" alt="Duda">
-                <div>
-                    <h3>Sobre Mim</h3>
-                    <p>Sou uma desenvolvedora apaixonada por design elegante e funcional. Transformo ideias em sites interativos e responsivos.</p>
-                </div>
-            </div>
+        <section class="post">
+            <h2><a href="post2.html">As Linguagens de Programação Mais Usadas e Para Que Servem - Explicação das linguagens mais populares.</a></h2>
+            <p>Descubra as linguagens mais usadas, para que servem e qual mais combina com você!</p>
         </section>
-
-        <!-- seção projetos -->
-        <section id="projetos">
-            <h3>Meus Projetos</h3>
-            <div class="projetos-grid">
-                <div class="projeto-card">
-                    <img src="assets/img/projeto1.jpg" alt="Projeto 1">
-                    <h4>Projeto 1</h4>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-                <div class="projeto-card">
-                    <img src="assets/img/projeto2.jpg" alt="Projeto 2">
-                    <h4>Projeto 2</h4>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- seção contato -->
-        <section id="contato">
-            <h3>Entre em Contato</h3>
-            <form action="#" method="POST">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-
-            <div id="mensagem-sucesso" style="display: none; text-align: center; color: #4caf50; margin-top: 15px;">
-                Mensagem enviada com sucesso!
-            </div>
+        <section class="post">
+            <h2><a href="post3.html">Os Erros Mais Comuns de Iniciantes na Programação e Como Evitá-los - Dicas para evitar armadilhas comuns.</a></h2>
+            <p>Descubra como evitar erros mais comuns e se tornar um programador mais eficiente!</p>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Duda | Todos os direitos reservados.</p>
-        <div class="social-icons">
-            <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
-            <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
-        </div>
+        <p>&copy; 2025 Meu Blog Aesthetic. Todos os direitos reservados.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

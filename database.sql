@@ -1,0 +1,11 @@
+CREATE DATABASE MeuBlog;
+USE MeuBlog;
+
+CREATE TABLE Posts (
+    PostID INT PRIMARY KEY IDENTITY(1,1),
+    Titulo NVARCHAR(255) NOT NULL,
+    Conteudo NVARCHAR(MAX) NOT NULL,
+    DataCriacao DATETIME DEFAULT GETDATE(),
+    CategoriaID INT,
+    FOREIGN KEY (CategoriaID) REFERENCES Categorias(CategoriaID)
+);
